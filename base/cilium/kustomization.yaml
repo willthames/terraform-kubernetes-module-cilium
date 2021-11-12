@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - templates/cilium-agent-clusterrole.yaml
+  - templates/cilium-agent-clusterrolebinding.yaml
+  - templates/cilium-agent-daemonset.yaml
+  - templates/cilium-agent-serviceaccount.yaml
+  - templates/cilium-configmap.yaml
+  - templates/cilium-nodeinit-daemonset.yaml
+  - templates/cilium-operator-clusterrole.yaml
+  - templates/cilium-operator-clusterrolebinding.yaml
+  - templates/cilium-operator-deployment.yaml
+  - templates/cilium-operator-serviceaccount.yaml

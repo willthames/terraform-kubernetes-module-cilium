@@ -1,0 +1,3 @@
+egressMasqueradeInterfaces: eth0
+nodeinit:
+  enabled: true
